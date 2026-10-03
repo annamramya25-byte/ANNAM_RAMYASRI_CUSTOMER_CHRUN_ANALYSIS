@@ -1,0 +1,54 @@
+analysis,category,result
+Total customers,All customers,1000.0
+Churned customers,Yes,367.0
+Retained customers,No,633.0
+Overall churn rate (%),All customers,36.7
+Average monthly charges,All customers,65.4
+Average total charges,All customers,2383.92
+Average tenure in months,All customers,36.05
+Customer count by gender,Female,509.0
+Customer count by gender,Male,491.0
+Churn rate by gender (%),Female,33.6
+Churn rate by gender (%),Male,39.92
+Customer count by contract,Month-to-month,564.0
+Customer count by contract,One year,248.0
+Customer count by contract,Two year,188.0
+Churn rate by contract (%),Month-to-month,48.4
+Churn rate by contract (%),One year,20.56
+Churn rate by contract (%),Two year,22.87
+Customer count by internetservice,Fiber optic,496.0
+Customer count by internetservice,DSL,367.0
+Customer count by internetservice,No,137.0
+Churn rate by internetservice (%),DSL,32.15
+Churn rate by internetservice (%),Fiber optic,42.14
+Churn rate by internetservice (%),No,29.2
+Customer count by paymentmethod,Credit card (automatic),264.0
+Customer count by paymentmethod,Bank transfer (automatic),254.0
+Customer count by paymentmethod,Electronic check,244.0
+Customer count by paymentmethod,Mailed check,238.0
+Churn rate by paymentmethod (%),Bank transfer (automatic),29.53
+Churn rate by paymentmethod (%),Credit card (automatic),35.23
+Churn rate by paymentmethod (%),Electronic check,45.9
+Churn rate by paymentmethod (%),Mailed check,36.55
+Customer count by seniorcitizen,0,821.0
+Customer count by seniorcitizen,1,179.0
+Churn rate by seniorcitizen (%),0,36.42
+Churn rate by seniorcitizen (%),1,37.99
+Customer count by tenure_group,25–48 months,343.0
+Customer count by tenure_group,49+ months,316.0
+Customer count by tenure_group,13–24 months,173.0
+Customer count by tenure_group,0–12 months,168.0
+Churn rate by tenure_group (%),0–12 months,50.6
+Churn rate by tenure_group (%),13–24 months,30.64
+Churn rate by tenure_group (%),25–48 months,33.53
+Churn rate by tenure_group (%),49+ months,36.08
+Top 10 by total charges,CUST0522,8625.15
+Top 10 by total charges,CUST0173,8625.05
+Top 10 by total charges,CUST0914,8447.58
+Top 10 by total charges,CUST0454,8201.43
+Top 10 by total charges,CUST0009,8003.92
+Top 10 by total charges,CUST0942,7893.07
+Top 10 by total charges,CUST0675,7883.54
+Top 10 by total charges,CUST0770,7721.54
+Top 10 by total charges,CUST0063,7606.54
+Top 10 by total charges,CUST0044,7447.13

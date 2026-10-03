@@ -1,0 +1,84 @@
+# Customer Churn & Retention Analytics
+
+## Project Overview
+
+This project analyzes customer churn for a telecommunications service. It uses Python visualizations and a Power BI dashboard to explore customer characteristics, services, contracts, tenure, charges, and churn.
+
+## Objectives
+
+- Measure the number and percentage of customers who churned.
+- Compare churn across contract types, internet services, payment methods, gender, and tenure groups.
+- Explore monthly and total charges in relation to churn.
+- Present the analysis with Python charts and interactive Power BI visuals.
+
+## Tools
+
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Jupyter Notebook / Google Colab / VS Code
+- Power BI Desktop, Power Query, and DAX
+
+## Dataset
+
+The dataset contains customer and service fields such as `CustomerID`, `Gender`, `SeniorCitizen`, `Partner`, `Dependents`, `TenureMonths`, `InternetService`, `Contract`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`, and `Churn`.
+
+Keep `CustomerID` as text. Check that tenure and charge columns have numeric data types before calculating averages or creating charts.
+
+## Python Visualizations
+
+The generated chart images are saved in the `visualizations/` folder:
+
+1. `01_churn_distribution.png` — Churn distribution
+2. `02_customers_by_contract.png` — Customer count by contract
+3. `03_churn_by_contract.png` — Churn by contract
+4. `04_churn_by_gender.png` — Churn by gender
+5. `05_churn_by_internet_service.png` — Churn by internet service
+6. `06_churn_by_payment_method.png` — Churn by payment method
+7. `07_tenure_distribution.png` — Tenure distribution
+8. `08_monthly_charges_distribution.png` — Monthly charges distribution
+9. `09_tenure_vs_monthly_charges.png` — Tenure versus monthly charges
+10. `10_monthly_charges_by_churn.png` — Monthly charges by churn
+11. `11_total_charges_by_churn.png` — Total charges by churn
+12. `12_churn_rate_by_tenure_group.png` — Churn rate by tenure group
+13. `13_service_usage.png` — Service usage count plots
+14. `14_correlation_heatmap.png` — Correlation heatmap for numeric variables
+
+## Power BI Dashboard
+
+The dashboard includes KPI cards for Total Customers, Churned Customers, Retained Customers, Churn Rate, Average Monthly Charges, and Average Tenure. It also includes customer and churn charts, a customer-details table, and slicers for Gender, Contract, Internet Service, Payment Method, Senior Citizen, and Churn.
+
+### DAX Measures
+
+The measures use `DISTINCTCOUNT`, `COUNTROWS`, `CALCULATE`, `DIVIDE`, and `AVERAGE` to calculate customer totals, churn, retention, churn rate, and averages.
+
+## Key Findings
+
+Based on the current Power BI dashboard:
+
+- Total customers: **1,000**
+- Churned customers: **367**
+- Retained customers: **633**
+- Overall churn rate: **36.70%**
+- Average monthly charges: **65.40**
+- Average tenure: **36.05 months**
+- Month-to-month contracts show the highest churn rate among contract types.
+- Electronic check shows the highest churn rate among payment methods.
+- Fiber optic shows the highest churn rate among internet service types.
+
+Use the chart tooltips to confirm exact category percentages. Compare average monthly charges by churn (not the sum) before making a conclusion about charge levels and churn.
+
+## How to Use
+
+1. Open the Python notebook or script used for the analysis.
+2. Update the dataset path if it differs from the path in the notebook or script.
+3. Run the analysis and visualization cells to regenerate the PNG files.
+4. Open the Power BI `.pbix` file in Power BI Desktop to explore the dashboard and slicers.
+
+## Project Files
+
+- Python notebook or script
+- Cleaned customer dataset (`.csv`)
+- `visualizations/` — generated chart images
+- Power BI dashboard (`.pbix`)
+- This `README.md`
